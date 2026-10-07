@@ -5,8 +5,8 @@ export default function Experience({ items }) {
     <section className="section shell" id="experience">
       <SectionHeader
         eyebrow="Professional Experience"
-        title="Current resume timeline."
-        intro="Each role highlights the work most relevant to frontend, mobile, and full stack product delivery."
+        title="Hands-on engineering. Growing ownership."
+        intro="My journey from full stack training to production engineering and leading product development at Akshanic Technologies."
       />
 
       <div className="timeline">

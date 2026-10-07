@@ -12,7 +12,8 @@ export default function Home() {
   return (
     <>
       <Navbar profile={resume.profile} />
-      <main>
+      <a className="skip-link" href="#main">Skip to content</a>
+      <main id="main">
         <Hero resume={resume} />
         <Milestones items={resume.milestones} />
         <Skills groups={resume.skills} />
@@ -21,6 +22,7 @@ export default function Home() {
         <Projects items={resume.projects} />
         <Contact resume={resume} />
       </main>
+      <footer className="site-footer shell"><span>© {new Date().getFullYear()} Anil Janjal</span><a href="#top">Back to top ↑</a></footer>
     </>
   );
 }

@@ -3,7 +3,7 @@ import "./globals.css";
 export const metadata = {
   title: "Anil Janjal | Full Stack Web & Mobile Developer",
   description:
-    "Professional portfolio and resume of Anil Janjal, a Full Stack Web and Mobile Application Developer.",
+    "Anil Janjal: Full Stack Web & Mobile Application Developer and Founder & Director at Akshanic Technologies. Explore 4Gear, travel platforms, enterprise applications, skills, and experience.",
 };
 
 export default function RootLayout({ children }) {

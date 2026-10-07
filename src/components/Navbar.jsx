@@ -1,6 +1,7 @@
 import { GithubIcon, LinkedinIcon, VercelIcon } from "./Icons";
 
 const links = [
+  { href: "#skills", label: "Skills" },
   { href: "#experience", label: "Experience" },
   { href: "#live-work", label: "Live Work" },
   { href: "#projects", label: "Projects" },
@@ -22,6 +23,10 @@ export default function Navbar({ profile }) {
             </a>
           ))}
         </div>
+        <details className="mobile-nav">
+          <summary>Menu</summary>
+          <div>{links.map((link) => <a key={link.href} href={link.href}>{link.label}</a>)}</div>
+        </details>
 
         <div className="nav-actions" aria-label="Social links">
           <a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">

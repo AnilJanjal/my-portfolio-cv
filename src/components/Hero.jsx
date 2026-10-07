@@ -17,12 +17,14 @@ export default function Hero({ resume }) {
           <p className="eyebrow">{resume.headline}</p>
           <h1>{profile.name}</h1>
           <h2>{profile.role}</h2>
+          <p className="current-role">Founder & Director at Akshanic Technologies</p>
           <p className="hero-summary">{resume.summary}</p>
 
           <div className="hero-actions">
             <a className="btn btn-primary" href={profile.resumeUrl} target="_blank" rel="noreferrer">
               View Resume <ArrowUpRightIcon />
             </a>
+            <a className="btn btn-accent" href="#projects">Explore my work <ArrowUpRightIcon /></a>
             <a className="btn btn-secondary" href={profile.resumeUrl} download="Anil_Janjal_Resume.pdf">
               Download <DownloadIcon />
             </a>
@@ -41,7 +43,7 @@ export default function Hero({ resume }) {
           </div>
         </div>
 
-        <div className="hero-visual" aria-label="Animated resume profile">
+        <div className="hero-visual" aria-label="Anil Janjal profile">
           <div className="orbit-scene">
             <div className="orbit-ring ring-one" />
             <div className="orbit-ring ring-two" />
@@ -59,6 +61,7 @@ export default function Hero({ resume }) {
               />
             </div>
           </div>
+          <div className="portrait-caption"><span className="status-dot" /> Building products. Shipping experiences.</div>
         </div>
       </div>
 

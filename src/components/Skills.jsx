@@ -5,8 +5,8 @@ export default function Skills({ groups }) {
     <section className="section shell" id="skills">
       <SectionHeader
         eyebrow="Technical Skills"
-        title="A balanced stack for modern product teams."
-        intro="Grouped by discipline so the stack is easy to scan."
+        title="The tools behind the experience."
+        intro="A practical stack for building interfaces, connecting services, managing data, and shipping reliable web and mobile products."
       />
       <div className="skills-grid">
         {groups.map((group) => (

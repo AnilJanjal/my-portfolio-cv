@@ -3,11 +3,11 @@ import SectionHeader from "./SectionHeader";
 
 export default function Milestones({ items }) {
   return (
-    <section className="section shell" aria-labelledby="milestones-title">
+    <section className="section shell" aria-label="Career highlights">
       <SectionHeader
         eyebrow="Career Milestones"
         title="Production-focused delivery across web and mobile."
-        intro="A concise snapshot of outcomes and product areas I have delivered across."
+        intro="Product ownership, real-world workflows, and measurable improvements."
       />
       <div className="milestone-grid">
         {items.map((item) => (
