@@ -1,4 +1,5 @@
 import SectionHeader from "./SectionHeader";
+import { ArrowUpRightIcon } from "./Icons";
 
 export default function Projects({ items }) {
   return (
@@ -15,6 +16,7 @@ export default function Projects({ items }) {
             <div className="project-index">{String(index + 1).padStart(2, "0")}</div>
             <p className="project-category">{project.category}</p>
             <h3>{project.title}</h3>
+            {project.status && <p className="project-status">{project.status}</p>}
             <p>{project.summary}</p>
             {project.details.some(detail => detail !== project.summary) && <ul className="project-details">
               {project.details.map((detail) => <li key={detail}>{detail}</li>)}
@@ -24,6 +26,7 @@ export default function Projects({ items }) {
                 <span key={tech}>{tech}</span>
               ))}
             </div>
+            {project.url && <a className="project-link" href={project.url} target="_blank" rel="noreferrer">Visit website <ArrowUpRightIcon /></a>}
           </article>
         ))}
       </div>

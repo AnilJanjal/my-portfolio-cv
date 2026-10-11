@@ -17,8 +17,12 @@ export default function Hero({ resume }) {
           <p className="eyebrow">{resume.headline}</p>
           <h1>{profile.name}</h1>
           <h2>{profile.role}</h2>
-          <p className="current-role">Founder & Director at Akshanic Technologies</p>
+          <p className="current-role">{profile.currentRole}</p>
           <p className="hero-summary">{resume.summary}</p>
+          <div className="role-availability" aria-label="Open to opportunities">
+            <span>Open to roles</span>
+            <p>{resume.openTo.join(" · ")}</p>
+          </div>
 
           <div className="hero-actions">
             <a className="btn btn-primary" href={profile.resumeUrl} target="_blank" rel="noreferrer">

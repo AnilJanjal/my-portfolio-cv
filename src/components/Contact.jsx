@@ -31,6 +31,7 @@ export default function Contact({ resume }) {
                 <strong>{item.title}</strong>
                 <span>{item.place}</span>
                 <small>{item.period}</small>
+                {item.detail && <small>{item.detail}</small>}
               </p>
             ))}
           </div>

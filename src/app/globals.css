@@ -1171,3 +1171,9 @@ a {
 .featured-work-copy .btn { margin-top: 22px; }
 .hero-grid > *, .contact-grid > *, .featured-work-card > * { min-width: 0; }
 @media (max-width: 800px) { .orbit-scene { width: min(380px, 100%); } }
+.role-availability { margin-top: 20px; padding-left: 14px; border-left: 3px solid var(--teal); }
+.role-availability > span { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--teal); font-weight: 700; }
+.role-availability p { margin: 6px 0 0; color: var(--muted); font-size: 13px; line-height: 1.8; }
+.project-card > .project-status { display: inline-flex; padding: 5px 10px; border-radius: 8px; background: #e5f5eb; color: #226444; font-size: 12px; font-weight: 650; }
+.project-link { display: inline-flex; align-items: center; gap: 8px; margin-top: 22px; color: var(--teal); font-size: 14px; font-weight: 650; }
+.project-link:hover { text-decoration: underline; }

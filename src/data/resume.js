@@ -8,10 +8,11 @@ export const resume = {
     "linkedin": "https://www.linkedin.com/in/anil-janjal-b23697261/",
     "github": "https://github.com/AnilJanjal",
     "vercel": "https://vercel.com/aniljanjals-projects",
-    "resumeUrl": "/Anil_Janjal_Resume.pdf"
+    "resumeUrl": "/Anil_Janjal_Resume.pdf",
+    "currentRole": "Full Stack Developer & Technical Co-Founder at Akshanic Technologies"
   },
-  "headline": "Full stack engineer · Product builder · Founder",
-  "summary": "Full Stack Web & Mobile Application Developer with 3+ years of experience building production web and cross-platform mobile applications. I work across Flutter, React Native, React.js, Next.js, Node.js, Firebase, and MongoDB—from responsive interfaces and API integration to performance optimization and cloud deployment. Currently leading hands-on product and software development at Akshanic Technologies Private Limited.",
+  "headline": "Web & mobile developer · Technical co-founder",
+  "summary": "Full Stack Web & Mobile Application Developer with 3+ years of hands-on experience building scalable, production-ready web and cross-platform mobile applications. Proficient in Flutter, Dart, React Native, React.js, Next.js, Node.js, Firebase, and MongoDB. Currently building 4Gear—a live vehicle booking platform published on Google Play—as Technical Co-Founder at Akshanic Technologies. Experienced in REST API integration, Redux and Riverpod state management, responsive UI development, CI/CD, and cloud deployments on Vercel and AWS, with production work across vehicle booking, travel, healthcare, field service, and e-commerce.",
   "stats": [
     {
       "value": "3+",
@@ -26,15 +27,15 @@ export const resume = {
       "label": "Faster SoftBuild data retrieval"
     },
     {
-      "value": "End to end",
-      "label": "Architecture, development & deployment"
+      "value": "Google Play",
+      "label": "4Gear Android app published"
     }
   ],
   "milestones": [
-    "Lead product planning, technical architecture, implementation, testing, and deployment at Akshanic Technologies.",
-    "Build customer and vehicle-partner booking experiences across the 4Gear mobile and web platforms.",
-    "Deliver responsive applications across travel, healthcare, field service, inventory, and e-commerce.",
-    "Improve data access through MongoDB indexing, including 15% faster retrieval in SoftBuild."
+    "Built and published 4Gear on Google Play, handling Flutter app development, testing, and deployment.",
+    "Delivered production cross-platform mobile applications for Android and iOS using Flutter, React Native, and Dart.",
+    "Developed React.js and Next.js web platforms across travel, healthcare, field service, vehicle booking, and e-commerce.",
+    "Improved performance, responsiveness, and user experience across production applications and real-world client projects."
   ],
   "skills": [
     {
@@ -45,7 +46,8 @@ export const resume = {
         "React Native",
         "Android",
         "iOS",
-        "Cross-platform development"
+        "Cross-platform development",
+        "Google Maps API"
       ]
     },
     {
@@ -68,7 +70,8 @@ export const resume = {
         "Express.js",
         "REST APIs",
         "Firebase",
-        "Authentication"
+        "Authentication",
+        "Firebase Auth"
       ]
     },
     {
@@ -104,22 +107,23 @@ export const resume = {
         "Chart.js",
         "ShuftiPro",
         "Schema.org SEO",
-        "i18n"
+        "i18n",
+        "Google Maps"
       ]
     }
   ],
   "experience": [
     {
-      "role": "Founder & Director",
+      "role": "Full Stack Developer & Technical Co-Founder",
       "company": "Akshanic Technologies Private Limited",
-      "location": "India",
+      "location": "Pune, India",
       "period": "July 2026 - Present",
       "points": [
-        "Lead hands-on product and technology development across web and mobile platforms: product planning, technical architecture, implementation, testing, deployment, and continuous improvement.",
-        "Lead development of proprietary products including 4Gear, managing software projects end-to-end and making daily technical and product decisions.",
-        "Guide team members, assign and review work, resolve technical challenges, and coordinate delivery.",
-        "Support business development, partnerships, and operational execution alongside product engineering.",
-        "Work directly with Flutter, React.js, Next.js, Firebase, APIs, and related technologies across product and client-facing software initiatives."
+        "Lead hands-on product and technology development: architecting, building, and shipping web and mobile applications using Flutter, React.js, Next.js, Firebase, and REST APIs.",
+        "Built and published 4Gear on Google Play, supporting bike, auto, car, and pickup categories with complete customer and partner workflows.",
+        "Develop and maintain the 4Gear web platform, including booking flows, partner portals, fare estimation, and location-based features.",
+        "Designed and deployed the official Akshanic Technologies corporate website with responsive UI, SEO, and performance optimization.",
+        "Manage software projects end-to-end: planning, architecture, development, testing, debugging, CI/CD deployment, and team coordination."
       ],
       "stack": [
         "Flutter",
@@ -127,18 +131,20 @@ export const resume = {
         "Next.js",
         "Firebase",
         "REST APIs",
-        "Product architecture"
+        "Google Maps"
       ]
     },
     {
       "role": "Frontend Developer | Cross-Platform",
       "company": "Buddy4Travel",
-      "location": "Remote / Hybrid - Australia",
+      "location": "Remote - Australia",
       "period": "January 2026 - May 2026",
       "points": [
-        "Developed and maintained frontend components and user interfaces for Buddy4Travel digital platforms.",
-        "Implemented responsive and scalable UI, resolved interface issues, improved performance, and supported cross-device compatibility.",
-        "Collaborated with backend, design, and product teams to support development and improvement of the platform."
+        "Developed and maintained frontend components and interfaces for Buddy4Travel web and mobile platforms using React.js, Next.js, and Tailwind CSS.",
+        "Built cross-platform mobile experiences for Android and iOS using React Native and Flutter.",
+        "Integrated REST APIs, authentication flows, and real-time Firebase features.",
+        "Resolved UI issues, improved performance, and ensured compatibility across devices and screen sizes.",
+        "Collaborated with backend, design, and product teams in agile development workflows."
       ],
       "stack": [
         "React.js",
@@ -159,7 +165,8 @@ export const resume = {
         "Built dashboards, analytics modules, and real-time interfaces with REST APIs and Firebase.",
         "Integrated Stripe payments, Mapbox, Leaflet, and Chart.js for commerce, mapping, and analytics.",
         "Implemented CI/CD and deployed applications on AWS, Vercel, and Netlify.",
-        "Optimized Next.js server-side rendering and MongoDB data access."
+        "Optimized Next.js SSR performance and MongoDB query indexing, improving data retrieval speed by 15%.",
+        "Applied Schema.org structured data for SEO improvements and implemented multilingual support across platforms."
       ],
       "stack": [
         "Next.js",
@@ -176,10 +183,9 @@ export const resume = {
       "location": "Remote - Bangalore",
       "period": "November 2022 - December 2023",
       "points": [
-        "Completed full stack development bootcamp focused on the MERN stack.",
-        "Built and deployed multiple projects using React.js, Node.js, Express.js, and MongoDB.",
-        "Gained hands-on experience in REST API integration, Redux state management, and frontend performance optimization.",
-        "Participated in code reviews and collaborative projects to strengthen agile workflow skills."
+        "Completed an intensive full stack web development bootcamp focused on MERN stack technologies.",
+        "Built and deployed projects using React.js, Node.js, Express.js, and MongoDB on Vercel and Netlify.",
+        "Gained hands-on experience in REST API integration, Redux state management, and frontend performance optimization."
       ],
       "stack": [
         "MERN",
@@ -228,14 +234,16 @@ export const resume = {
         "Flutter",
         "Dart",
         "Firebase",
-        "REST APIs"
+        "Google Maps API"
       ],
-      "summary": "A vehicle-booking application connecting customers and vehicle partners across bike, auto, car, and pickup categories.",
+      "summary": "A production Flutter Android app published on Google Play, supporting bike, auto, car, and pickup bookings.",
       "details": [
-        "Built authentication, location-based booking, fare estimation, and booking lifecycle/status management.",
-        "Implemented start-OTP workflows and API/payment integration.",
-        "Handled testing, debugging, and release preparation."
-      ]
+        "Built the customer workflow: vehicle selection, pickup/destination, fare estimation, booking confirmation, OTP start, ride completion, and payment.",
+        "Implemented partner registration, vehicle listing, document submission, admin verification, booking acceptance/rejection, and earnings.",
+        "Integrated Google Maps for live location tracking, route display, and geolocation-based fare estimation.",
+        "Implemented secure login with Firebase Auth, push notifications, and real-time booking status updates."
+      ],
+      "status": "Published on Google Play"
     },
     {
       "title": "4Gear Web Platform",
@@ -243,14 +251,14 @@ export const resume = {
       "stack": [
         "Next.js",
         "React.js",
-        "APIs",
-        "Location workflows"
+        "Tailwind CSS",
+        "REST APIs"
       ],
-      "summary": "A responsive vehicle discovery and booking platform with complete customer and partner workflows.",
+      "summary": "A production vehicle-booking web platform with customer and partner portals.",
       "details": [
-        "Built pickup/destination selection, fare estimation, booking confirmation, provider acceptance, status tracking, and completion.",
-        "Developed partner registration, vehicle listing, pricing/service radius, document submission, and verification.",
-        "Implemented partner booking management and earnings-related functionality."
+        "Implemented vehicle category selection, fare estimation, booking lifecycle management, and status tracking.",
+        "Built partner registration, vehicle listing, document submission, and admin verification workflows.",
+        "Integrated location/maps features, REST APIs, and responsive interfaces for mobile and desktop."
       ]
     },
     {
@@ -259,13 +267,14 @@ export const resume = {
       "stack": [
         "Next.js",
         "React.js",
-        "Responsive design"
+        "Tailwind CSS"
       ],
-      "summary": "The official corporate website presenting Akshanic’s products, platforms, software services, and business portfolio.",
+      "summary": "The official Akshanic Technologies website presenting company products, platforms, and software services.",
       "details": [
-        "Handled website architecture and responsive frontend implementation.",
-        "Focused on performance, deployment, and clear business-enquiry presentation."
-      ]
+        "Handled website architecture, responsive frontend implementation, and SEO optimization.",
+        "Implemented deployment and business-enquiry functionality."
+      ],
+      "url": "https://akshanic.com"
     },
     {
       "title": "Buddy4Travel Mobile Application",
@@ -337,12 +346,13 @@ export const resume = {
       ],
       "summary": "Built SSR-based hospital management, parts tracking, equipment workflows, secure authentication, and analytics dashboards.",
       "details": [
-        "Built SSR-based hospital management, parts tracking, equipment workflows, secure authentication, and analytics dashboards."
+        "Built a hospital management system with Next.js SSR, equipment tracking, parts management, and analytics dashboards.",
+        "Integrated Firebase real-time data synchronization, secure authentication, and data-driven reporting for healthcare providers."
       ]
     },
     {
       "title": "FieldXpress",
-      "category": "Mobile Field Service",
+      "category": "Field technician app · Android & iOS",
       "stack": [
         "React Native",
         "Redux",
@@ -350,7 +360,8 @@ export const resume = {
       ],
       "summary": "Created technician workflows for tasks, status updates, signatures, push notifications, and offline capabilities.",
       "details": [
-        "Created technician workflows for tasks, status updates, signatures, push notifications, and offline capabilities."
+        "Built task management, job status updates, and customer signature capture for field technicians.",
+        "Incorporated push notifications and offline capabilities using Firebase, boosting field technician productivity by 20%."
       ]
     },
     {
@@ -385,7 +396,8 @@ export const resume = {
     {
       "title": "Full Stack Web Development",
       "place": "Newton School, Bangalore",
-      "period": "2022 - 2023"
+      "period": "2022 - 2023",
+      "detail": "Full-time bootcamp · Remote"
     },
     {
       "title": "Bachelor of Science (B.Sc.)",
@@ -395,5 +407,12 @@ export const resume = {
   ],
   "certifications": [
     "Full Stack Web Development Certification - Newton School, Bangalore (2023)"
+  ],
+  "openTo": [
+    "Flutter Developer",
+    "React Native Developer",
+    "Frontend Developer",
+    "Full Stack Developer",
+    "Mobile App Developer"
   ]
 };
